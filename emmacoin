@@ -1,0 +1,26 @@
+VERSION="2.0.0"
+
+NETWORK_PASSPHRASE="Public Global Stellar Network ; September 2015"
+
+ACCOUNTS=[
+"GCFGVOVBB3IQLFQ2KFI4GKDKFHI62PJTUHENM4267TBEVMQLFGV5FAH4",
+"GATEUHF2RJQWMTZKIRSWZQN4J26IP3J4HFDFLETEMNUQXOXRIDSABQUF"
+]
+
+[DOCUMENTATION]
+ORG_NAME="Emma Coin"
+ORG_URL="http://emmacoin.io/"
+ORG_LOGO="https://stellarmint.io/wp-content/uploads/2021/05/EMMA-COIN-1.png"
+ORG_DESCRIPTION="Emma Coin is a charitable organization dedicated to the freedom of the people against centralized tyranny."
+ORG_TWITTER="@emmacoin1"
+ORG_OFFICIAL_EMAIL="info@emmacoin.io"
+
+[[CURRENCIES]]
+code="EMMA"
+issuer="GCFGVOVBB3IQLFQ2KFI4GKDKFHI62PJTUHENM4267TBEVMQLFGV5FAH4"
+display_decimals=7
+is_asset_anchored=false
+name="Emma Coin"
+desc="EMMA Coin is a decentralized digital currency whose purpose is to free the working collective from relying on centralized forms of currency. Emma Coin is deflationary and charitable. 20% of Emma Coins are locked into a charity wallet to be redistributed to a freedom charity every month. Freedom from tyranny, freedom from corporatism, freedom from poverty, and freedom from centralized government is the focus of Emma Coin"
+conditions="There are 10,000,000,000 coins that have been minted with a 10,000,000,000 maximum supply"
+image="https://stellarmint.io/wp-content/uploads/2021/05/EMMA-COIN-1.png"
